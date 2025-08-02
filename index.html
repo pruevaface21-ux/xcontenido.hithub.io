@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Plataforma de Videos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">MiWeb</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="seccion-inicio">
+            <h1>Bienvenido a la Plataforma de Videos</h1>
+            <p>Descubre y comparte tus videos favoritos con la comunidad.</p>
+            <div class="destacado">
+                <h2>Video Destacado del Día</h2>
+                <video id="video-destacado" controls poster="destacado.jpg">
+                    <source src="video-destacado.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </section>
+
+        <section id="videos" class="seccion-videos">
+            <h2>Últimos Videos</h2>
+            <div class="galeria">
+                <div class="item-video">
+                    <a href="#" class="enlace-video" data-src="video1.mp4">
+                        <img src="mini-video1.jpg" alt="Título del Video 1">
+                    </a>
+                    <h3>Título del Video 1</h3>
+                    <p>Una breve descripción del video.</p>
+                </div>
+                <div class="item-video">
+                    <a href="#" class="enlace-video" data-src="video2.mp4">
+                        <img src="mini-video2.jpg" alt="Título del Video 2">
+                    </a>
+                    <h3>Título del Video 2</h3>
+                    <p>Una breve descripción del video.</p>
+                </div>
+                <div class="item-video">
+                    <a href="#" class="enlace-video" data-src="video3.mp4">
+                        <img src="mini-video3.jpg" alt="Título del Video 3">
+                    </a>
+                    <h3>Título del Video 3</h3>
+                    <p>Una breve descripción del video.</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="contacto" class="seccion-contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o sugerencia? Ponte en contacto con nosotros.</p>
+            <form action="#" method="post">
+                <input type="text" placeholder="Tu Nombre">
+                <input type="email" placeholder="Tu Correo Electrónico">
+                <textarea placeholder="Tu Mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mi Plataforma de Videos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
